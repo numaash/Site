@@ -1,0 +1,213 @@
+.navbar{  
+background:#d0b084;
+}
+.nav-link , .navbar-brand{
+color: #f4f4f4;
+cursor: pointer;
+}
+.nav-link{
+margin-right: 1em !important;
+}
+.nav-link:hover{
+background: #936b4a;
+color: #d0b084;
+}
+.navbar-collapse{
+justify-content: flex-end;
+}
+.navbar-toggler{
+background:#fff !important;
+}
+
+.header{
+background-image: url("kros.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center; 
+}
+
+
+.header img {
+width: 100%;
+}
+
+.overlay{
+position: absolute;
+min-height: 100%;
+min-width: 100%;
+left: 0;
+top: 0;
+background: rgba(244, 244, 244, 0.80);
+}
+
+/*.header-container{
+	margin-left: 10%;
+	margin-right: 10%;
+
+}*/
+
+
+.description{
+position: absolute;
+top: 30%;
+margin: auto;
+padding: auto;
+}
+.description h3{
+box-sizing: border-box;
+color:#F97300 ;
+}
+.description p{
+color: #666;
+font-size: 20px;
+width: 50%;
+line-height: 1.5;
+margin-top: 0;
+margin-bottom: 1rem;
+box-sizing: border-box;
+}
+.description button{
+justify-self: center;
+border:1px solid #d0b084;
+background:#d0b084;
+color:#fff;
+	}
+
+
+
+.row img{
+height: 95%;
+width: 95%;
+border-radius: 50%;
+max-width: 100%;
+height: auto;
+vertical-align: middle;
+border-style: none
+/*height: 70%;
+width: 70%;      
+border-radius: 50%*/
+}  
+.about span {
+color:  #936b4a;
+position: absolute;
+left: 115px;
+top: 100%;
+}
+.text-justify {
+text-align: justify!important;
+box-sizing: border-box;
+
+}
+.about{
+ margin: 1em; 
+ position: relative;
+}
+.about h1{
+ color:#F97300;
+ margin: 1em;
+}
+
+
+
+
+/*Portfolio*/
+.portfolio{
+margin: 4em;
+position: relative;
+}
+.portfolio h1{
+color:#d0b084;
+margin: 1em;
+}
+.portfolio img{
+height: 16em;
+width: 75%;
+margin: 2em;
+}
+
+.blog{
+margin: 4em 0;
+position: relative;
+}
+.blog h1{
+color:#d0b084;
+margin: 2em;
+}
+.blog .card{
+box-shadow: 0 0 20px #ccc;
+}
+.blog .card img{
+width: 100%;
+height: 20em;
+}
+.blog .card-title{
+color:#d0b084;
+}
+
+.blog .card-body{
+padding: 1em;
+}
+
+
+
+
+.team{
+margin: 4em 0;
+position: relative;
+}
+.team h1{
+color:#d0b084;
+margin: 2em;
+}
+.team .item{
+position: relative;
+}
+.team .des{
+background: #d0b084;
+color: #fff;
+text-align: center;
+border-bottom-left-radius: 93%;
+transition:.3s ease-in-out;
+}
+
+.team .item:hover .des{
+height: 100%;
+background:rgba(208, 176, 132, 0.59);
+position: absolute;
+width: 89%;
+padding: 5em;
+top: 0;
+border-bottom-left-radius: 0;
+}
+
+.contact-form{
+ margin: 6em 0;
+ position: relative;
+}
+.contact-form h1{
+ padding:2em 1px;
+ color: #d0b084;
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background: #d0b084;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px; }
+
+ @import url('https://fonts.googleapis.com/css?family=Bitter');
+*{
+ font-family: "Bitter";
+}
+
+.randomizer-form .right .btn-secondary {
+    background: #d0b084;
+    color: #fff;
+    border: 0;
+    margin: 1em;
+}
